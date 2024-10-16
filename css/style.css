@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.containerTotal{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.tareas h1{
+  font-weight: 50px;
+  font-size: 50px;
+}
+
+.tareasPendientes h2{
+  font-weight: 50px;
+  font-size: 50px;
+}
+
+
+.borrarTarea{
+
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-weight: 30px;
+
+}
+
+.lista{
+  font-size: 20px;
+  font-weight: 20px;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+
+}
+
+#tarea{
+  width: 250px; 
+  height: 40px; 
+  font-size: 16px; 
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.botonAgregar{
+  width: 100px; 
+  height: 40px; 
+  background-color:whitesmoke;
+  cursor: pointer;
+  color: black;
+  border: 2px solid ;
+  border-radius: 90px;
+
+}
+
